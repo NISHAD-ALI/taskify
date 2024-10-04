@@ -1,7 +1,7 @@
 import axios, { AxiosInstance } from "axios";
 
 const axiosInstance : AxiosInstance = axios.create({
-    baseURL : "http://localhost:4000",
+    baseURL : "https://taskifyco.up.railway.app/",
     withCredentials : true
 })
 
